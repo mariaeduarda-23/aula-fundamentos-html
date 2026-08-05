@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens </title>
+</head>
+<style>
+    .img-pequena {
+        width: 30%;
+        height: 300px;
+    }
+    .img-destaque {
+        height: 400px;
+        width: 100%;
+        object-fit:contain;
+    }
+    img {
+        border-radius: 50px;
+        border: 10px dashed beige;
+    }
+    .div-images {
+        margin-top: 30px; 
+        border: 2px solid white;
+        display: flex;
+        justify-content: space-around;
+    }
+    body {
+        background-color:cornflowerblue;
+    }
+</style>
+<body>
+    <div>
+        <img class="img-destaque" src="f1.png" alt="Foto do Harry Potter">
+    </div>
+
+    <div class="div-images"> 
+        <img class="img-pequena" src="f2.png" alt="Foto de Stranger Things">
+        <img class="img-pequena" src="f3.png" alt="Foto do Cobra Kai">
+        <img class="img-pequena" src="f4.png" alt="Foto da Barbie">
+    </div>
+</body>
+</html>
