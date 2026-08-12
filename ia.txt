@@ -1,0 +1,3 @@
+Mudei a cor do fundo (#edf2f7 → #f8f9fa);
+Mudei o tamanho do título;
+Mudei a cor da borda das imagens.
