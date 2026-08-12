@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perfil da Maria</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(135deg, #f5e6d3, #dbeafe);
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        .bio {
+            width: 90%;
+            max-width: 550px;
+            padding: 30px;
+
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+
+            text-align: center;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #5b4b8a;
+        }
+
+        .foto {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+
+            border-radius: 50%;
+            border: 5px solid #5b4b8a;
+
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin: 20px 0 10px;
+            color: #5b4b8a;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 15px;
+        }
+
+        li {
+            padding: 8px;
+            margin: 5px 0;
+
+            background-color: #f1edff;
+            border-radius: 8px;
+        }
+
+        .redes {
+            margin-top: 25px;
+        }
+
+        .logos {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+
+            margin: 0 8px;
+            transition: 0.3s;
+        }
+
+        .logos:hover {
+            transform: scale(1.15);
+        }
+
+        @media (max-width: 500px) {
+            .bio {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .foto {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bio">
+
+        <h1>Olá, eu sou a Maria!</h1>
+
+        <img class="foto" src="foto.png" alt="Foto da Maria">
+
+        <p>
+            Tenho 16 anos, sou estudante e gosto de jogar,
+            ouvir músicas e aproveitar meu tempo livre.
+        </p>
+
+        <h2>Minhas Especialidades</h2>
+
+        <ul>
+            <li>🎮 Jogar</li>
+            <li>🍔 Comer</li>
+            <li>💅 Pintar a unha</li>
+        </ul>
+
+        <h2>Meus Hobbies</h2>
+
+        <ul>
+            <li>🏋️ Treinar</li>
+            <li>🎮 Jogar</li>
+            <li>✈️ Viajar</li>
+        </ul>
+
+        <div class="redes">
+
+            <a href="https://github.com/mariaeduarda-23" target="_blank">
+                <img class="logos" src="github.png" alt="GitHub">
+            </a>
+
+            <a href="#" target="_blank">
+                <img class="logos" src="linkedin.png" alt="LinkedIn">
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
